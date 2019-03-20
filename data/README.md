@@ -21,7 +21,7 @@ The mapping (bam) file was manually inspected in [Geneious](https://www.geneious
 Consensus sequences were called in Geneious, with nucleotide sites with <100x coverage called as Ns. Consensus genomes were exported in fasta format and are available [here](https://github.com/blab/h5n1-cambodia/tree/master/data/h5n1-consensus-genomes.fasta).
 
 **Remapping**
-To avoid issues with mapping to improper reference sequences, we then remapped each sample's fastq files to its own consensus sequence. These bam files were again manually inspected in Geneious, and a final consensus sequence was called. Those consensus genomes for which we acquired at least 80% full-genome coverage are available [here](https://github.com/blab/mumps-seq/tree/master/data/consensus-genomes) as fasta files. 
+To avoid issues with mapping to improper reference sequences, we then remapped each sample's fastq files to its own consensus sequence. These bam files were again manually inspected in Geneious, and a final consensus sequence was called. Consensus genomes are available [here](https://github.com/blab/h5n1-cambodia/tree/master/data/consensus-genomes) as fasta files. 
 
 **Variant calling**
 Variants were called using [Varscan](http://varscan.sourceforge.net/), requiring  minimum coverage of 100x at the polymorphic site, a minimum quality of Q30, and a minimum SNP frequency of 1% with the following command: `java -jar VarScan.v2.3.9.jar mpileup2snp input.pileup --min-coverage 100 --min-avg-qual 30 --min-var-freq 0.01 --strand-filter 1 --output-vcf 1 > output.vcf`
@@ -30,7 +30,7 @@ Variants were called using [Varscan](http://varscan.sourceforge.net/), requiring
 Coding region changes were annotated using [this jupyter notebook](https://github.com/blab/h5n1-cambodia/tree/master/scripts).
 
 ## Consensus genomes 
-All consensus sequences are available [here](https://github.com/blab/mumps-seq/tree/master/data/consensus-genomes). The fasta header contains the following information: strain name | sample collection date | country of sampling | host species. 
+All consensus sequences are available [here](https://github.com/blab/h5n1-cambodia/tree/master/data/consensus-genomes). The fasta header contains the following information: strain name | sample collection date | country of sampling | host species. 
 
 
 ## Trees 
