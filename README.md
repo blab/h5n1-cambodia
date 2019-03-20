@@ -1,7 +1,5 @@
 # H5N1 within-host diversity in humans and poultry in Cambodia 
 
-Using deep sequence data to characterize within-host diversity in H5N1-infected humans and poultry in Cambodia
-
 #### Louise H. Moncla<sup>1</sup>, Trevor Bedford<sup>1,2</sup>, Philippe Dussart<sup>3</sup>, Philippe Buchy<sup>4</sup>, Huachen Zhu<sup>5,6</sup>, Thomas C. Friedrich<sup>7,8</sup>, Paul F. Horwood<sup>9,10</sup>
 
 <sup>1</sup>Fred Hutchinson Cancer Research Center, Seattle, Washington, United States, <sup>2</sup>University of Washington, Seattle, Washington, United States, <sup>3</sup>Virology Unit, Institut Pasteur du Cambodge, Phnom Penh, Cambodia, <sup>4</sup>GlaxoSmithKline, Vaccines R&D, Singapore, Singapore,<sup>5</sup>Joint Influenza Research Centre (SUMC/HKU), Shantou University Medical College, Shantou, People's Republic of China,<sup>6</sup>State Key Laboratory of Emerging Infectious Diseases/Centre of Influenza Research, School of Public Health, The University of Hong Kong, Hong Kong, SAR, People's Republic of China,<sup>7</sup>Department of Pathobiological Sciences, University of Wisconsin School of Veterinary Medicine, Madison, WI, United States,<sup>8</sup>Wisconsin National Primate Research Center, Madison, WI, United States,<sup>9</sup>Papua New Guinea Institute of Medical Research, Goroka, Paula New Guinea,<sup>10</sup>Australian Institute of Tropical Health and Medicine, James Cook University, Cairns, Australia.

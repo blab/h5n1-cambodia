@@ -1,0 +1,500 @@
+{
+  "annotations": {
+    "NA": {
+      "end": 1430,
+      "start": 20,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 1458,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {
+    "?": {
+      "n": 996
+    },
+    "animal_and_plant_health_agency_(apha)": {
+      "n": 28
+    },
+    "anses_agence_nationale_de_securite_sanitaire_de_l?alimentation": {
+      "n": 10
+    },
+    "beijing_institute_of_microbiology_and_epidemiology": {
+      "n": 12
+    },
+    "centers_for_disease_control_and_prevention": {
+      "n": 458
+    },
+    "crick_worldwide_influenza_centre": {
+      "n": 11
+    },
+    "csiro_australian_animal_health_laboratory": {
+      "n": 24
+    },
+    "eijkman_institute_for_molecular_biology": {
+      "n": 4
+    },
+    "friedrich_loeffler_institut": {
+      "n": 60
+    },
+    "hangzhou_center_for_disease_control_and_prevention": {
+      "n": 1
+    },
+    "harbin_veterinary_research_institute_(caas)": {
+      "n": 129
+    },
+    "hong_kong_department_of_health": {
+      "n": 1
+    },
+    "institut_pasteur_cambodia": {
+      "n": 13
+    },
+    "institut_pasteur_of_cambodia": {
+      "n": 22
+    },
+    "institute_of_microbiology,_chinese_academy_of_sciences": {
+      "n": 50
+    },
+    "istituto_zooprofilattico_sperimentale_delle_venezie": {
+      "n": 92
+    },
+    "jiangsu_provincial_center_for_disease_control_&_prevention": {
+      "n": 1
+    },
+    "national_institute_for_biological_standards_and_control_(nibsc)": {
+      "n": 4
+    },
+    "national_institute_of_animal_health": {
+      "n": 295
+    },
+    "national_institute_of_health_research_and_development": {
+      "n": 23
+    },
+    "national_institute_of_infectious_diseases_(niid)": {
+      "n": 3
+    },
+    "national_veterinary_research_institut_poland,_piwet_pib": {
+      "n": 8
+    },
+    "other_database_import": {
+      "n": 4144
+    },
+    "public_health_agency_of_canada_(phac)": {
+      "n": 1
+    },
+    "robert_koch_institute_nationales_referenzzentrum_f?r_influenza": {
+      "n": 2
+    },
+    "south_china_agricultural_university": {
+      "n": 1
+    },
+    "state_research_center_of_virology_and_biotechnology_(vector)": {
+      "n": 3
+    },
+    "u.s._naval_medical_research_unit_no._3": {
+      "n": 2
+    },
+    "veterinary_and_agrochemical_research_institute": {
+      "n": 2
+    },
+    "who_chinese_national_influenza_center": {
+      "n": 80
+    }
+  },
+  "color_options": {
+    "country": {
+      "key": "country",
+      "legendTitle": "Country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "host": {
+      "color_map": [
+        [
+          "avian",
+          "#4066CF"
+        ],
+        [
+          "environment",
+          "#77B67F"
+        ],
+        [
+          "nonhuman_mammal",
+          "#CEB541"
+        ],
+        [
+          "human",
+          "#DC2F24"
+        ]
+      ],
+      "key": "host",
+      "legendTitle": "Host",
+      "menuItem": "host",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "region": {
+      "color_map": [
+        [
+          "china",
+          "#4042C7"
+        ],
+        [
+          "southeast_asia",
+          "#69B091"
+        ],
+        [
+          "south_asia",
+          "#5199B7"
+        ],
+        [
+          "japan_korea",
+          "#E39B39"
+        ],
+        [
+          "west_asia",
+          "#ADBD51"
+        ],
+        [
+          "africa",
+          "#CEB541"
+        ],
+        [
+          "europe",
+          "#4274CE"
+        ],
+        [
+          "north_america",
+          "#DC2F24"
+        ]
+      ],
+      "key": "region",
+      "legendTitle": "region",
+      "menuItem": "region"
+    }
+  },
+  "defaults": {
+    "colorBy": "region",
+    "mapTriplicate": true
+  },
+  "filters": [
+    "host",
+    "region",
+    "country"
+  ],
+  "geo": {
+    "country": {
+      "afghanistan": {
+        "latitude": 33.0,
+        "longitude": 66.0
+      },
+      "austria": {
+        "latitude": 47.2000338,
+        "longitude": 13.199959
+      },
+      "azerbaijan": {
+        "latitude": 40.37767,
+        "longitude": 49.89201
+      },
+      "bangladesh": {
+        "latitude": 24.4768783,
+        "longitude": 90.2932426
+      },
+      "belgium": {
+        "latitude": 50.6407351,
+        "longitude": 4.66696
+      },
+      "benin": {
+        "latitude": 9.668764,
+        "longitude": 2.284078
+      },
+      "bhutan": {
+        "latitude": 27.5142,
+        "longitude": 90.4336
+      },
+      "bulgaria": {
+        "latitude": 42.6073975,
+        "longitude": 25.4856617
+      },
+      "burkina_faso": {
+        "latitude": 12.5,
+        "longitude": -1.66667
+      },
+      "cambodia": {
+        "latitude": 13.0,
+        "longitude": 105.0
+      },
+      "cameroon": {
+        "latitude": 6.0,
+        "longitude": 12.5
+      },
+      "canada": {
+        "latitude": 61.0666922,
+        "longitude": -107.991707
+      },
+      "china": {
+        "latitude": 35.000074,
+        "longitude": 104.999927
+      },
+      "cote_d_ivoire": {
+        "latitude": 7.9897371,
+        "longitude": -5.5679457
+      },
+      "croatia": {
+        "latitude": 45.16667,
+        "longitude": 15.5
+      },
+      "czech_republic": {
+        "latitude": 49.8175,
+        "longitude": 15.473
+      },
+      "denmark": {
+        "latitude": 56.0,
+        "longitude": 10.0
+      },
+      "egypt": {
+        "latitude": 26.2540493,
+        "longitude": 29.2675469
+      },
+      "france": {
+        "latitude": 46.603354,
+        "longitude": 1.8883335
+      },
+      "germany": {
+        "latitude": 51.0834196,
+        "longitude": 10.4234469
+      },
+      "ghana": {
+        "latitude": 8.0300284,
+        "longitude": -1.080027
+      },
+      "hong_kong": {
+        "latitude": 22.3964,
+        "longitude": 114.1095
+      },
+      "hungary": {
+        "latitude": 47.0,
+        "longitude": 20.0
+      },
+      "iceland": {
+        "latitude": 64.9841821,
+        "longitude": -18.1059012
+      },
+      "india": {
+        "latitude": 22.3511148,
+        "longitude": 78.6677428
+      },
+      "indonesia": {
+        "latitude": -5.0,
+        "longitude": 120.0
+      },
+      "iran": {
+        "latitude": 32.0,
+        "longitude": 53.0
+      },
+      "iraq": {
+        "latitude": 33.0,
+        "longitude": 44.0
+      },
+      "israel": {
+        "latitude": 31.5,
+        "longitude": 34.75
+      },
+      "italy": {
+        "latitude": 42.6384261,
+        "longitude": 12.674297
+      },
+      "japan": {
+        "latitude": 35.68536,
+        "longitude": 139.75309
+      },
+      "kazakhstan": {
+        "latitude": 47.2286086,
+        "longitude": 65.2093197
+      },
+      "kuwait": {
+        "latitude": 29.3117,
+        "longitude": 47.4818
+      },
+      "laos": {
+        "latitude": 20.0171109,
+        "longitude": 103.378253
+      },
+      "lebanon": {
+        "latitude": 33.88894,
+        "longitude": 35.49442
+      },
+      "malaysia": {
+        "latitude": 2.3923759,
+        "longitude": 112.8471939
+      },
+      "mongolia": {
+        "latitude": 46.8250388,
+        "longitude": 103.8499736
+      },
+      "myanmar": {
+        "latitude": 21.0,
+        "longitude": 96.0
+      },
+      "nepal": {
+        "latitude": 28.0,
+        "longitude": 84.0
+      },
+      "netherlands": {
+        "latitude": 52.3702,
+        "longitude": 4.8952
+      },
+      "niger": {
+        "latitude": 18.0,
+        "longitude": 9.0
+      },
+      "nigeria": {
+        "latitude": 10.0,
+        "longitude": 8.0
+      },
+      "pakistan": {
+        "latitude": 30.0,
+        "longitude": 70.0
+      },
+      "palestine": {
+        "latitude": 31.5,
+        "longitude": 34.46667
+      },
+      "poland": {
+        "latitude": 52.0977181,
+        "longitude": 19.0258159
+      },
+      "russia": {
+        "latitude": 64.6863136,
+        "longitude": 97.7453061
+      },
+      "saudi_arabia": {
+        "latitude": 25.0,
+        "longitude": 45.0
+      },
+      "slovakia": {
+        "latitude": 48.66667,
+        "longitude": 19.5
+      },
+      "slovenia": {
+        "latitude": 45.8133113,
+        "longitude": 14.4808369
+      },
+      "south_korea": {
+        "latitude": 35.3985008,
+        "longitude": 127.937111
+      },
+      "sudan": {
+        "latitude": 16.0,
+        "longitude": 30.0
+      },
+      "sweden": {
+        "latitude": 59.6749712,
+        "longitude": 14.5208584
+      },
+      "switzerland": {
+        "latitude": 47.00016,
+        "longitude": 8.01427
+      },
+      "taiwan": {
+        "latitude": 23.6978,
+        "longitude": 120.9605
+      },
+      "thailand": {
+        "latitude": 14.8971921,
+        "longitude": 100.83273
+      },
+      "tibet": {
+        "latitude": 31.129337,
+        "longitude": 88.671049
+      },
+      "togo": {
+        "latitude": 8.66667,
+        "longitude": 1.08333
+      },
+      "turkey": {
+        "latitude": 39.0,
+        "longitude": 35.0
+      },
+      "ukraine": {
+        "latitude": 49.4871968,
+        "longitude": 31.2718321
+      },
+      "united_arab_emirates": {
+        "latitude": 24.0002488,
+        "longitude": 53.9994829
+      },
+      "united_kingdom": {
+        "latitude": 51.50853,
+        "longitude": -0.12574
+      },
+      "usa": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
+      },
+      "vietnam": {
+        "latitude": 16.16667,
+        "longitude": 107.83333
+      }
+    },
+    "region": {
+      "africa": {
+        "latitude": 4.070194,
+        "longitude": 21.824559
+      },
+      "china": {
+        "latitude": 35.000074,
+        "longitude": 104.999927
+      },
+      "europe": {
+        "latitude": 49.646237,
+        "longitude": 10.799454
+      },
+      "japan_korea": {
+        "latitude": 35.845119,
+        "longitude": 136.736386
+      },
+      "north_america": {
+        "latitude": 28.2367447,
+        "longitude": -97.738017
+      },
+      "south_asia": {
+        "latitude": 24.485438,
+        "longitude": 76.513158
+      },
+      "southeast_asia": {
+        "latitude": 3.020567,
+        "longitude": 112.390683
+      },
+      "west_asia": {
+        "latitude": 34.000094,
+        "longitude": 48.73228
+      }
+    }
+  },
+  "maintainer": [
+    "Louise Moncla",
+    "http://bedford.io/team/louise-moncla/"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Real-time tracking of influenza A/H5N1 virus evolution",
+  "updated": "01 Mar 2019",
+  "virus_count": 5357
+}
