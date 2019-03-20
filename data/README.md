@@ -1,7 +1,14 @@
 # Data
 
+## Trees 
+Tree files shown in Figure 1 are available in json format [here](https://github.com/blab/h5n1-cambodia/tree/master/data/tree-jsons). These jsons were generated using the [Nextstrain avian-flu](https://github.com/nextstrain/avian-flu) pipeline with no geographic or regional subsampling. 
+
+## Consensus genomes 
+All consensus sequences are available [here](https://github.com/blab/h5n1-cambodia/tree/master/data/consensus-genomes). The fasta header contains the following information: strain name | sample collection date | country of sampling | host species. 
+
+
 ## Within-host data  
-All within-host variants reported in the manuscript and analyzed are available in "within-host-variants-1%.txt". This data file includes all variants present at a frequency of at least 1% in all human and duck samples. Fastq files were processed and variants called using [this pipeline](https://github.com/lmoncla/illumina_pipeline), briefly outlined below: 
+All within-host variants reported in the manuscript and analyzed are available [here](https://github.com/blab/h5n1-cambodia/blob/master/data/within-host-variants-1%25.txt). This data file includes all variants present at a frequency of at least 1% in all human and duck samples. Fastq files were processed and variants called using [this pipeline](https://github.com/lmoncla/illumina_pipeline), briefly outlined below: 
 
 1. Adapter and quality trimming with [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic )
 2. Mapping with [bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
@@ -27,11 +34,8 @@ To avoid issues with mapping to improper reference sequences, we then remapped e
 Variants were called using [Varscan](http://varscan.sourceforge.net/), requiring  minimum coverage of 100x at the polymorphic site, a minimum quality of Q30, and a minimum SNP frequency of 1% with the following command: `java -jar VarScan.v2.3.9.jar mpileup2snp input.pileup --min-coverage 100 --min-avg-qual 30 --min-var-freq 0.01 --strand-filter 1 --output-vcf 1 > output.vcf`
 
 **Amino acid annotation**
-Coding region changes were annotated using [this jupyter notebook](https://github.com/blab/h5n1-cambodia/tree/master/scripts).
-
-## Consensus genomes 
-All consensus sequences are available [here](https://github.com/blab/h5n1-cambodia/tree/master/data/consensus-genomes). The fasta header contains the following information: strain name | sample collection date | country of sampling | host species. 
+Coding region changes were annotated using [this jupyter notebook](https://github.com/blab/h5n1-cambodia/tree/master/scripts/H5N1_vcf_parser.py).
 
 
-## Trees 
-Tree files shown in Figure 1 are available in json format [here](https://github.com/blab/h5n1-cambodia/tree/master/data/tree-jsons). These jsons were generated using the [Nextstrain avian-flu](https://github.com/nextstrain/avian-flu) pipeline with no geographic or regional subsampling. 
+
+
