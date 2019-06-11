@@ -34,7 +34,7 @@ To avoid issues with mapping to improper reference sequences, we then remapped e
 Variants were called using [Varscan](http://varscan.sourceforge.net/), requiring  minimum coverage of 100x at the polymorphic site, a minimum quality of Q30, and a minimum SNP frequency of 1% with the following command: `java -jar VarScan.v2.3.9.jar mpileup2snp input.pileup --min-coverage 100 --min-avg-qual 30 --min-var-freq 0.01 --strand-filter 1 --output-vcf 1 > output.vcf`
 
 **Amino acid annotation**
-Coding region changes were annotated using [this jupyter notebook](https://github.com/blab/h5n1-cambodia/tree/master/scripts/H5N1_vcf_parser.py).
+Coding region changes were annotated using [this jupyter notebook](https://github.com/blab/h5n1-cambodia/blob/master/scripts/VCF%20annotater.ipynb).
 
 
 
