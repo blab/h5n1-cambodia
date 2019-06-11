@@ -11,9 +11,9 @@ All consensus sequences are available [here](https://github.com/blab/h5n1-cambod
 Human reads were removed from all raw fastq files by mapping to the human reference genome GRCh38 with bowtie2. Only unmapped reads were further processed and used for data analysis. The raw fastq files with human reads filtered out are all publicly available in the Sequence Read Archive under the accession number [PRJNA547644](https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA547644), accession numbers SRX5984186-SRX5984198. All within-host variants reported in the manuscript and analyzed are available [here](https://github.com/blab/h5n1-cambodia/blob/master/data/within-host-variants-1%25.txt). This data file includes all variants present at a frequency of at least 1% in all human and duck samples. Fastq files were processed and variants called using [this pipeline](https://github.com/lmoncla/illumina_pipeline), briefly outlined below: 
 
 1. Adapter and quality trimming with [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic )
-2. Mapping with [bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
+2. Mapping with [bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) version 3.2.2. 
 3. Manual inspection of mapping and consensus genome calling with [Geneious](https://www.geneious.com/) 
-4. Re-mapping fastq files called consensus with [bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
+4. Re-mapping fastq files called consensus with [bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) version 3.2.2. 
 
 
 **Trimming**
