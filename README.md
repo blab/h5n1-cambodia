@@ -18,3 +18,7 @@ Avian influenza viruses (AIVs) periodically cross species barriers and infect hu
 * [`data/`](data/): contains consensus genomes, within-host SNV calls and phylogenies
 * [`figures/`](figures/): contains Jupyter notebooks to generate manuscript figures
 * [`scripts`](scripts/): contains processing scripts
+
+## Citation
+
+[Moncla LH, Bedford T, Dussart P, Horm SV, Rith S, Buchy P, Karlsson EA, Li L, Liu Y, Zhu H, Guan Y, Friedrich TC, Horwood PF. 2019. Quantifying within-host evolution of H5N1 influenza in humans and poultry in Cambodia. bioRxiv: 683151.](https://doi.org/10.1101/683151)
