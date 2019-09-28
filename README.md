@@ -14,6 +14,7 @@ Avian influenza viruses (AIVs) periodically cross species barriers and infect hu
 
 ## Project structure
 
+* [`auspice/`](auspice/): contains JSON trees viewable via Nextstrain
 * [`data/`](data/): contains consensus genomes, within-host SNV calls and phylogenies
-* [`scripts`](scripts/): contains processing scripts
 * [`figures/`](figures/): contains Jupyter notebooks to generate manuscript figures
+* [`scripts`](scripts/): contains processing scripts
