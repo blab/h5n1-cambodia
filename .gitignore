@@ -5,10 +5,9 @@
 *.pyc
 __pycache__/
 .cache/
-augur.egg-info/
-nextstrain_augur.egg-info/
 env/
 .pytest_cache
+.ipynb_checkpoints
 
 # Compiled source #
 ###################
