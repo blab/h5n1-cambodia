@@ -1,14 +1,14 @@
 Sample ID	Host	Sample type	Collection	Date	Days_post_symptom_onset	vRNA copies/μl (after vRNA extraction)	Clade
-A/duck/Cambodia/PV027D1/2010	Domestic duck	Pooled organs	Poultry outbreak investigation	April 2010	NA	5.45 x 106	1.1.2
-A/duck/Cambodia/083D1/2011	Domestic duck	Pooled organs	Poultry outbreak investigation	September 2011	NA	3.74 x 107	1.1.2
-A/duck/Cambodia/381W11M4/2013	Domestic duck	Pooled throat and cloacal swab	Live bird market surveillance	March 2013	NA	7.37 x 105	1.1.2/2.3.2.1a reassortant
-A/duck/Cambodia/Y0224301/2014	Domestic duck	Pooled organs	Poultry outbreak investigation	February 2014	NA	2.0 x 105	1.1.2/2.3.2.1a reassortant
-A/duck/Cambodia/Y0224304/2014	Domestic duck	Pooled organs	Poultry outbreak investigation	February 2014	NA	5.0 x 106	1.1.2/2.3.2.1a reassortant
-A/Cambodia/V0401301/2011	Human	Throat swab	Event-based surveillance	April 2011	9	5.02 x 103	1.1.2
-A/Cambodia/V0417301/2011	Human	Throat swab	Event-based surveillance	April 2011	5	8.98 x 104	1.1.2
-A/Cambodia/W0112303/2012	Human	Throat swab	Event-based surveillance	January 2012	7	2.05 x 103	1.1.2
-A/Cambodia/X0125302/2013	Human	Throat swab	Event-based surveillance	January 2013	12	6.84 x 104	1.1.2/2.3.2.1a reassortant
-A/Cambodia/X0128304/2013	Human	Throat swab	Event-based surveillance	January 2013	8	5.09 x 103	1.1.2/2.3.2.1a reassortant
-A/Cambodia/X0207301/2013	Human	Throat swab	Event-based surveillance	February 2013	12	1.73 x 105	1.1.2/2.3.2.1a reassortant
-A/Cambodia/X0219301/2013	Human	Throat swab	Event-based surveillance	February 2013	12	1.66 x 103	1.1.2/2.3.2.1a reassortant
-A/Cambodia/X1030304/2013	Human	Throat swab	Event-based surveillance	October 2013	8	1.08 x 104	1.1.2/2.3.2.1a reassortant
+A/duck/Cambodia/PV027D1/2010	Domestic duck	Pooled organs	Poultry outbreak investigation	April 2010	NA	5.45 x 10^6	1.1.2
+A/duck/Cambodia/083D1/2011	Domestic duck	Pooled organs	Poultry outbreak investigation	September 2011	NA	3.74 x 10^7	1.1.2
+A/duck/Cambodia/381W11M4/2013	Domestic duck	Pooled throat and cloacal swab	Live bird market surveillance	March 2013	NA	7.37 x 10^5	1.1.2/2.3.2.1a reassortant
+A/duck/Cambodia/Y0224301/2014	Domestic duck	Pooled organs	Poultry outbreak investigation	February 2014	NA	2.0 x 10^5	1.1.2/2.3.2.1a reassortant
+A/duck/Cambodia/Y0224304/2014	Domestic duck	Pooled organs	Poultry outbreak investigation	February 2014	NA	5.0 x 10^6	1.1.2/2.3.2.1a reassortant
+A/Cambodia/V0401301/2011	Human	Throat swab	Event-based surveillance	April 2011	9	5.02 x 10^3	1.1.2
+A/Cambodia/V0417301/2011	Human	Throat swab	Event-based surveillance	April 2011	5	8.98 x 10^4	1.1.2
+A/Cambodia/W0112303/2012	Human	Throat swab	Event-based surveillance	January 2012	7	2.05 x 10^3	1.1.2
+A/Cambodia/X0125302/2013	Human	Throat swab	Event-based surveillance	January 2013	12	6.84 x 10^4	1.1.2/2.3.2.1a reassortant
+A/Cambodia/X0128304/2013	Human	Throat swab	Event-based surveillance	January 2013	8	5.09 x 10^3	1.1.2/2.3.2.1a reassortant
+A/Cambodia/X0207301/2013	Human	Throat swab	Event-based surveillance	February 2013	12	1.73 x 10^5	1.1.2/2.3.2.1a reassortant
+A/Cambodia/X0219301/2013	Human	Throat swab	Event-based surveillance	February 2013	12	1.66 x 10^3	1.1.2/2.3.2.1a reassortant
+A/Cambodia/X1030304/2013	Human	Throat swab	Event-based surveillance	October 2013	8	1.08 x 10^4	1.1.2/2.3.2.1a reassortant
