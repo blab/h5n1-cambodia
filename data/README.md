@@ -1,11 +1,22 @@
 # Data
 
-## Trees
-Tree files shown in Figure 1 are available in json format [here](https://github.com/blab/h5n1-cambodia/tree/master/data/tree-jsons). These jsons were generated using the [Nextstrain avian-flu](https://github.com/nextstrain/avian-flu) pipeline with no geographic or regional subsampling.
+## Sample metadata
+Metadata describing the strain name, host species, year and month of sample collection, type of sample, sample collection method, vRNA copies/ul as assessed by RT-qPCR, days post symptom onset for human samples, and viral clade. 
 
 ## Consensus genomes
 All consensus sequences are available [here](https://github.com/blab/h5n1-cambodia/tree/master/data/consensus-genomes). The fasta header contains the following information: strain name | sample collection date | country of sampling | host species.
 
+## gtfs 
+These files include annotations for the coding regions for each sample genome, in gtf format. 
+
+## pileup files 
+These files contain coverage and quality information for each base covered by sequence data for each sample in this dataset. These files were used to calculate and plot coverage information. Pileup format is described [here](http://samtools.sourceforge.net/pileup.shtml).
+
+## nucleotide diversity data 
+Nonsynonymous and synonymous diversity were calculated for each coding region (PB2, PB1, PA, HA, NP, NA, M1, M2, NS1, and NEP) for each sample in this dataset using [SNPGenie](https://github.com/chasewnelson/SNPGenie). Combined results from all genes and samples are available in `pi-values.tsv`. 
+
+## Trees
+Tree files shown in Figure 1 are available in json format [here](https://github.com/blab/h5n1-cambodia/tree/master/data/tree-jsons). These jsons were generated using the [Nextstrain avian-flu](https://github.com/nextstrain/avian-flu) pipeline with no geographic or regional subsampling.
 
 ## Within-host data  
 Human reads were removed from all raw fastq files by mapping to the human reference genome GRCh38 with bowtie2. Only unmapped reads were further processed and used for data analysis. The raw fastq files with human reads filtered out are all publicly available in the Sequence Read Archive under the accession number [PRJNA547644](https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA547644), accession numbers SRX5984186-SRX5984198. All within-host variants reported in the manuscript and analyzed are available [here](https://github.com/blab/h5n1-cambodia/blob/master/data/within-host-variants-1%25.tsv). This data file includes all variants present at a frequency of at least 1% in all human and duck samples. FASTQ files were processed and variants called using [this pipeline](https://github.com/lmoncla/illumina_pipeline), briefly outlined below: 

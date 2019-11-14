@@ -6,7 +6,7 @@
 
 ## Abstract
 
-Avian influenza viruses (AIVs) periodically cross species barriers and infect humans. The likelihood that an AIV will evolve mammalian transmissibility depends on acquiring and selecting mutations during spillover. We analyze deep sequencing data from infected humans and ducks in Cambodia to examine H5N1 evolution during spillover. Viral populations in both species are predominated by low-frequency (<10%) variation shaped by purifying selection and genetic drift. Viruses from humans contain some human-adapting mutations (PB2 E627K, HA A150V, and HA Q238L), but these mutations remain low-frequency. Within-host variants are not enriched along phylogenetic branches leading to human infections. Our data show that H5N1 viruses generate putative human-adapting mutations during natural spillover infection. However, short infections, randomness, and purifying selection limit the evolutionary capacity of H5N1 viruses within-host. Applying evolutionary methods to sequence data, we reveal a detailed view of H5N1 adaptive potential, and develop a foundation for studying host-adaptation in other zoonotic viruses.
+Avian influenza viruses (AIVs) periodically cross species barriers and infect humans. The likelihood that an AIV will evolve mammalian transmissibility depends on acquiring and selecting mutations during spillover, but data from natural infection is limited. We analyze deep sequencing data from infected humans and domestic ducks in Cambodia to examine how H5N1 viruses evolve during spillover. Overall, viral populations in both species are predominated by low-frequency (<10%) variation shaped by purifying selection and genetic drift, and half of the variants detected within-host are never detected on the H5N1 virus phylogeny. However, we do detect a subset of mutations linked to human receptor binding and replication (PB2 E627K, HA A150V, and HA Q238L) that arose in multiple, independent humans. PB2 E627K and HA A150V were also enriched along phylogenetic branches leading to human infections, suggesting that they are likely human-adaptive. Our data show that H5N1 viruses generate putative human-adapting mutations during natural spillover infection, many of which are detected at >5% frequency within-host. However, short infection times, genetic drift, and purifying selection likely restrict their ability to evolve extensively during a single infection. Applying evolutionary methods to sequence data, we reveal a detailed view of H5N1 virus adaptive potential, and develop a foundation for studying host-adaptation in other zoonotic viruses.
 
 ## Install
 
@@ -15,7 +15,7 @@ Avian influenza viruses (AIVs) periodically cross species barriers and infect hu
 ## Project structure
 
 * [`auspice/`](auspice/): contains JSON trees viewable via Nextstrain
-* [`data/`](data/): contains consensus genomes, within-host SNV calls and phylogenies
+* [`data/`](data/): contains sample metadata, consensus genomes, within-host SNV calls, coverage data in pileup format, coding region annotations in gtf format, and phylogenies
 * [`figures/`](figures/): contains Jupyter notebooks to generate manuscript figures
 * [`scripts`](scripts/): contains processing scripts
 
