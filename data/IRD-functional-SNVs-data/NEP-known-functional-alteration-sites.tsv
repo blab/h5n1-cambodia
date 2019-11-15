@@ -1,0 +1,4 @@
+Feature Identifier	Sequence Feature Name	Sequence Feature Length	Variant Types	Category	Amino Acid Position	Evidence	Comments	
+Influenza A_NS2_SF4	Influenza A_NS2_nuclear-export-signal-motif_12(10)	10	141	functional	12..21	UniProt: P03508,	-N/A-	
+Influenza A_NS2_SF5	Influenza A_NS2_nuclear-export-signal motif_85(10)	10	247	functional	85..94	UniProt: P03508,	-N/A-	
+Influenza A_NS2_SF61	Influenza A_NS2_determinants-of-virulence_47(2)	2	21	functional	47,51	PMID:  20862325,	Residues 47 and 51 of NS2 are associated with difference in virulence between high and low pathogenic H5N1 viruses in ferrets. Amino acid differences at residue 134 of HA, at 200 and 205 of NS1 also contribute to this phenotype.	
