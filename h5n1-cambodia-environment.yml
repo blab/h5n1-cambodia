@@ -1,5 +1,6 @@
-name: h5n1-cambodia
+name: LHM-basics
 channels:
+  - file:///Users/lmoncla/anaconda/envs/test/conda-bld
   - anaconda
   - bioconda
   - r
@@ -318,5 +319,5 @@ dependencies:
   - zstd=1.3.3=1
   - pip:
     - future==0.17.1
-prefix: ../h5n1-cambodia
+prefix: /Users/lmoncla/anaconda/envs/LHM-basics
 
