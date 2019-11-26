@@ -10,13 +10,19 @@ Avian influenza viruses (AIVs) periodically cross species barriers and infect hu
 
 ## Install
 
-* Requires `baltic/baltic.py` to be available as a sister directory to `h5n1-cambodia`. BALTIC is available from [this GitHub repo](https://github.com/evogytis/baltic).
+The notebooks in this repo require `baltic/baltic.py`, which is available from [this GitHub repo](https://github.com/evogytis/baltic). There is a working version in this repo. Every notebook also requires R and ryp2, a package for using R within python jupyter notebooks. To ensure you have all the required packages, do the following: 
+
+1. Install [miniconda](https://docs.conda.io/en/latest/miniconda.html) for your machine. 
+2. Clone this repo: `git clone https://github.com/blab/h5n1-cambodia`
+3. Create the conda environment: `conda env create -f envs/h5n1-cambodia-environment.yml`
+4. Activate the environment: `conda activate h5n1-cambodia-environment` 
+5. Launch jupyter notebook and run. 
 
 ## Project structure
 
 * [`auspice/`](auspice/): contains JSON trees viewable via Nextstrain
 * [`data/`](data/): contains sample metadata, consensus genomes, within-host SNV calls, coverage data in pileup format, coding region annotations in gtf format, and phylogenies
-* [`figures/`](figures/): contains Jupyter notebooks to generate manuscript figures
+* [`figures/`](figures/): contains Jupyter notebooks to generate manuscript figures as well as PDFs of individual figure outputs. 
 * [`scripts`](scripts/): contains processing scripts
 
 ## Citation
