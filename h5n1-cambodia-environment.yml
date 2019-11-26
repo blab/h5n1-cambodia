@@ -1,8 +1,6 @@
-name: LHM-basics
+name: h5n1-cambodia
 channels:
-  - file:///Users/lmoncla/anaconda/envs/test/conda-bld
   - anaconda
-  - http://conda.anaconda.org/gurobi
   - bioconda
   - r
   - conda-forge

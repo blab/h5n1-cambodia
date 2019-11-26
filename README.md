@@ -14,9 +14,9 @@ The notebooks in this repo require `baltic/baltic.py`, which is available from [
 
 1. Install [miniconda](https://docs.conda.io/en/latest/miniconda.html) for your machine. 
 2. Clone this repo: `git clone https://github.com/blab/h5n1-cambodia`
-3. Create the conda environment: `conda env create -f envs/h5n1-cambodia-environment.yml`
+3. Create the conda environment: `conda env create -f h5n1-cambodia-environment.yml`
 4. Activate the environment: `conda activate h5n1-cambodia-environment` 
-5. Launch jupyter notebook and run. 
+5. Navigate to the `h5n1-cambodia` directory, launch jupyter notebook and run. 
 
 ## Project structure
 
